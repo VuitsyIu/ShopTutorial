@@ -100,6 +100,40 @@ ul {
     
     }
 
+  .carousel-container{
+    width: 310px;
+    margin: auto;
+    border: 5px solid black;
+    z-index: 2;
+    overflow: hidden;
+}
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    z-index: 0;
+}
+#prevBtn {
+    position: relative;
+    top: 65%;
+    z-index: 10;
+    left: 45%;
+    font-size: 30px;
+    color: darkolivegreen;
+    opacity: 0.5;
+    cursor: pointer;
+}
+#nextBtn {
+    position: relative;
+    top: 65%;
+    z-index: 10;
+    right: 45%;
+    font-size: 30px;
+    color: darkolivegreen;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
     @media (max-width: 767px) {
         nav ul {
             display: block;
@@ -134,37 +168,5 @@ ul {
             } 
 
     }
-    .carousel-container{
-    width: 310px;
-    margin: auto;
-    border: 5px solid black;
-    z-index: 2;
-    overflow: hidden;
-}
-.carousel-slide {
-    display: flex;
-    width: 100%;
-    height: 500px;
-    z-index: 0;
-}
-#prevBtn {
-    position: relative;
-    top: 65%;
-    z-index: 10;
-    left: 45%;
-    font-size: 30px;
-    color: darkolivegreen;
-    opacity: 0.5;
-    cursor: pointer;
-}
-#nextBtn {
-    position: relative;
-    top: 65%;
-    z-index: 10;
-    right: 45%;
-    font-size: 30px;
-    color: darkolivegreen;
-    opacity: 0.5;
-    cursor: pointer;
-}
+  
     
