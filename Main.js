@@ -166,8 +166,6 @@ function displayCart() {
 }
 
 
-onLoadCartNumbers();
-displayCart();
 
 const carouselSlide = document.querySelector('.carousel-slide');
 const carouselImages = document.querySelectorAll('.carousel-slide img');
@@ -209,4 +207,6 @@ carouselSlide.addEventListener('transitionend', () => {
 })
 };
 
+onLoadCartNumbers();
+displayCart();
 
