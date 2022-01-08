@@ -148,7 +148,7 @@ ul {
     z-index: 0;
 }
 #prevBtn {
-    position: absolute;
+    position: relative;
     top: 65%;
     z-index: 10;
     left: 45%;
@@ -158,7 +158,7 @@ ul {
     cursor: pointer;
 }
 #nextBtn {
-    position: absolute;
+    position: relative;
     top: 65%;
     z-index: 10;
     right: 45%;
